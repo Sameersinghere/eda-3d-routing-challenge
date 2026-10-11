@@ -1,5 +1,5 @@
 {
  "author": "Sameer-Deepak",
- "method": "C-core negotiated-congestion router (PathFinder, fanout-weighted) with shortest-path-tree sink attachment and exact-bound A*, exact per-net SPT reroute, then large-neighbourhood search with windowed group re-negotiation and exact sequential group moves. Not derived from other entries' routes.",
- "date": "2026-10-05"
+ "method": "C-core negotiated-congestion router (PathFinder, slow fanout-weighted schedule) with shortest-path-tree sink attachment and exact-bound A*, exact per-net SPT reroute, then large-neighbourhood search (windowed group re-negotiation and exact sequential group moves) over multiple independent fresh starts. Not derived from other entries' routes.",
+ "date": "2026-10-11"
 }
